@@ -1,15 +1,21 @@
+/* header */
+
+
 .navbar .container {
-	background-color: gold;
+	background-color: #255ee9;
 }
 
 .jumbo {
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 .jumbo .content {
-	background-color: salmon;
-	min-height: 250px;
+	/* background-color: salmon; */
+	/* min-height: 250px; */
 }
+
+/* main  */
+
 
 .section-feature .image {
 	background-color: aquamarine;
