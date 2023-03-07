@@ -160,7 +160,7 @@ main section {
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: #23272A; /* TODO: check value */
 }
 
 footer .footer-top {
@@ -171,14 +171,43 @@ footer .footer-top {
 }
 
 footer .column-socials {
+	color: white;
 	flex: 0 0 40%;
+	padding: 1rem;
+	font-size: 2rem;
+	padding-right: 7rem;
+}
+
+.footer-column.column-socials > * {
+	margin-bottom: 2rem;
 }
 
 footer .column-links {
 	flex: 0 0 15%;
+	padding: 1rem;
+	font-size: 1.3rem;
 }
+
+.footer-column li {
+	margin-bottom: 2rem;
+}
+
+.footer-column a {
+	color: white;
+	text-decoration: none;
+}
+
 
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-bottom.container button {
+	color: white;
+	background-color: #7289DA;
+	font-size: 1.5rem;
+	border-radius: 25px;
+	padding: .9rem;
 }
