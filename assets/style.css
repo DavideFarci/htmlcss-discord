@@ -103,6 +103,7 @@ main section {
 
 .section-feature .container {
 	display: flex;
+	justify-content: center;
 }
 
 .section-feature.reverse .container {
@@ -115,12 +116,20 @@ main section {
 
 .section-feature .image {
 	flex: 0 0 60%;
+	padding-left: 9rem;
 
 }
 
 .section-feature .text {
 	flex: 0 0 40%;
-	text-align: center;
+	padding: 1.2rem;
+	padding-right: 8rem;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.text > * {
+	margin-bottom:1rem ;
 }
 
 /* footer */
