@@ -111,7 +111,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: #F6F6F6; 
 }
 
 .section-feature .image {
@@ -123,13 +123,36 @@ main section {
 .section-feature .text {
 	flex: 0 0 40%;
 	padding: 1.2rem;
-	padding-right: 8rem;
+	padding-right: 2rem;
 	text-align: left;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .text > * {
-	margin-bottom:1rem ;
+	margin-bottom:2rem ;
+}
+
+.section-feature.reverse .text{
+	font-size: 3rem;
+}
+
+.section-full .container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 1rem;
+	font-size: 3rem;
+	gap: 3rem;
+}
+
+#button-end {
+	color: white;
+	background-color: #7289DA;
+	font-size: 2rem;
+	border-radius: 50px;
+	padding: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 7rem;
 }
 
 /* footer */
